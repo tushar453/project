@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 430px;
+    width: 90%;
+    background:#000000;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+
+}
+.navbar ul{
+    display: flex;
+    
+    align-items: center;
+   
+    margin: 20px 0;
+    position: absolute;
+    left: 150px;
+
+}
+.navbar ul li{
+    margin: 0 70px;
+    list-style: none;
+}
+.navbar ul li a {
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+font-weight: 300;
+}
+
+.p{
+    position: absolute;
+transform: rotate(90deg);
+
+font-size: 13px;
+top: 250px;
+left: -108px;
+word-spacing:10px ;
+}
+.nike img{
+    width: 90px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     top:-8px;
+    left: -6px;
+}
+.air {
+margin: 20px;
+display: flex;
+}
+.air h1{
+    color:#fff;
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position:0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position:2000px 0;
+    }
+    }
+
+    .air h4{
+        color: #fff;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .air p{
+        margin-top: 5px;
+        color: rgb(61, 114, 114) ;
+        font-size: 15px;
+    }
+    .btn{
+        background: #fff;
+        width: 170px;
+        height: 45px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .btn span{
+        font-weight: 798;
+        font-size: 19px;
+       
+    }
+
+    .shoes{
+        display: inline-block;
+        width: 100px ;
+        margin-left: 80px;
+        
+    }
+    .shoes img{
+        width: 350px;
+    }
+.content{
+    display: inline-block;}
